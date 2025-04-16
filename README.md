@@ -1,18 +1,18 @@
 структура проекта: 
 testovoe/
-│
+
 ├── lib/                  # Перехватываемые функции (preload)
 │   └── preload.cpp
-│
+
 ├── shared/               # Буфер shared memory и общее API
-│   ├── shared_buffer.cpp
-│   ├── shared_buffer.h
-│   └── common.h
-│
+   ├── shared_buffer.cpp
+  ├── shared_buffer.h
+  └── common.h
+  
 ├── daemon/               # Демоны логирования
-│   ├── file_logger.cpp
-│   └── memory_logger.cpp
-│
+  ├── file_logger.cpp
+  └── memory_logger.cpp
+  
 ├── CMakeLists.txt        # Основной CMake файл
 ├── build/                # Каталог сборки
 
